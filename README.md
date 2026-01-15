@@ -21,3 +21,24 @@ real-world usage of passkey login and smart wallet transactions.
 ## Installation
 ```bash
 npm install @lazorkit/sdk
+
+## Tutorial 1: Creating a Passkey Wallet
+1. Install Lazorkit SDK in a React or Next.js project
+2. Configure Lazorkit for Solana Devnet
+3. Trigger passkey-based authentication
+4. A smart wallet is created without seed phrases
+
+## Tutorial 2: Sending a Gasless Transaction
+1. Authenticate user using passkey
+2. Initialize the Lazorkit smart wallet
+3. Create a transaction request
+4. Submit the transaction gaslessly via Lazorkit
+
+## Example Use Cases
+- Passkey login flow with smart wallet
+- Gasless USDC transfer on Solana
+- Web onboarding without wallet installation
+
+## Notes
+This repository is created as a starter example for the
+Superteam Vietnam Lazorkit integration bounty.
