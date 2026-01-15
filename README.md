@@ -22,6 +22,15 @@ real-world usage of passkey login and smart wallet transactions.
 ```bash
 npm install @lazorkit/sdk
 
+## Environment Setup
+
+Create a `.env.local` file in the root of the project and add the following:
+
+NEXT_PUBLIC_LAZORKIT_NETWORK=devnet
+NEXT_PUBLIC_SOLANA_RPC=https://api.devnet.solana.com
+
+These variables configure Lazorkit to run on Solana Devnet.
+
 ## Tutorial 1: Creating a Passkey Wallet
 1. Install Lazorkit SDK in a React or Next.js project
 2. Configure Lazorkit for Solana Devnet
